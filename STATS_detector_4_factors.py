@@ -40,7 +40,7 @@ from scipy.interpolate import interp1d
 
 
 def detect_spindles(eeg, fs):
-    start = time.perf_counter()
+    start_time = time.perf_counter()
 
     '''
     PARAMETERS THAT NEED TO BE CHANGED FOR STATISTICAL ANALYSIS AND CODE VALIDATION
@@ -713,8 +713,8 @@ def detect_spindles(eeg, fs):
 
     print(final_stats,'\n')
 
-    end = time.perf_counter()
-    print("Time Elapsed: ", end - start)
+    end_time = time.perf_counter()
+    print("Time Elapsed: ", end_time - start_time)
     plt.show()
 
     return spindles
