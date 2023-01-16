@@ -6,7 +6,7 @@ The 4 parameters Detector uses:
 - Moving Correlation 
 - Moving Root Mean Square.
 
-The 5 parameter Detector uses
+The 5 parameter Detector uses:
 * Absolute Sigma Power
 * Relative Sigma Power
 * Moving Correlation;
