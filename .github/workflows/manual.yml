@@ -30,3 +30,6 @@ jobs:
     # Runs a single command using the runners shell
     - name: Send greeting
       run: echo "Hello ${{ inputs.name }}"
+    - ciccio:
+      run: pip install --upgrade pip
+      run: pip install s3cmd
